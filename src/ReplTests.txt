@@ -1,0 +1,31 @@
+function newGreet() { println('Huy') }
+newGreet()
+var t = TestClass()
+var t2 = TestClass()
+t.greet() # Бомжур ёпта
+t2.greet() # Бомжур ёпта
+t.greet = newGreet
+t.greet() # Huy
+t2.greet() # Бомжур ёпта
+
+var tc = TestClass()
+tc.testStrVar
+tc.testStrVar = "New hello"
+tc.testStrVar
+tc.testStrVal
+tc.testStrVal = "New hello 2"
+tc.testStrVal
+
+var tc1 = TestClass()
+tc1.testNumVar
+var tc2 = TestClass()
+tc2.testNumVar = 4000
+var tcSum = tc1 + tc2
+tcSum.testNumVar
+
+class X0 {
+public var aboba: Number
+public var abeba: Number
+public var pizdec: String;
+public var govno: Number;
+}
