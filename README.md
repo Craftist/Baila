@@ -6,7 +6,7 @@
 - Baila treats everything as a value: variables, expressions, functions, heck, even types are values
   (you can pass types, literal types (like `Int` or `<Int>List`) into functions and create them.
   Type parameters (generics) are not needed, even though Baila supports them as well)
-- Syntax is heavily inspired from Kotlin, my, probably, most favorite language, but also some
+- Syntax is heavily inspired from Kotlin, my probably most favorite language, but also some
   features are taken from JavaScript, some from C#
 
 Some examples of Baila:
